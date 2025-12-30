@@ -1,0 +1,24 @@
+what is mongooes?
+-->mongooes is an object Data Modelling(ODM) library for MongoDB desined for use
+    in node.js application.it provides a Sechma-based solution to model your application
+    data and simplifies intrections with the mongoDB database.
+
+
+Mongoose vs. MongoDB
+-->MONGODB is the actual NoSQL database system that stores data in flexible,JSON-like documents.
+-->MONGOOSE is a tool that runs on top of the native Monogodb node.js driver.
+   it adds a layer of structure,validation,and abstraction to help developer manage data
+   consistency and relationship more easily.
+
+
+->without Mongooes
+    db.users.insertOne({name:"Dhruvi,age:"twenty"})
+--Age should be number, but Monogodb allows it.
+
+-->With Mongooes    
+const userSechma = new Monogoes.Sechma{{
+    name:String
+    age:Number
+}}
+mogoes URL:mongodb://localhost:27017/
+
